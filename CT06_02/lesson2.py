@@ -36,15 +36,9 @@ print("red")
 
 ######## Write the pseudocode in comments for task 3 here
 # Using comments, translate the code shown on screen into pseudocode.
-# secretPhrase ← ("open sesame")
-
-# display "Enter the secret phrase:"
-# userInput ← READ input
-
-# if userInput = secretPhrase THEN
-    # display "Access granted"
-# else
-    # display "Access denied"
-
-
-
+secret_Phrase = "open sesame"
+reply = input("tell me the secret phrase: ")
+if secret_Phrase == reply:
+    print("access is granted")
+else:
+    print("wrong passcode!")
