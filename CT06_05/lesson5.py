@@ -15,8 +15,14 @@
 #     print(count)
 
 
-urname = input("give me a name: ")
-for letter in urname:
-    print("give me a", letter.upper(), "!")
+# urname = input("give me a name: ")
+# for letter in urname:
+#     print("give me a", letter.upper(), "!")
 
-print(urname, "is the best!")
+# print(urname, "is the best!")
+
+num = 0
+for count in range(10):
+    num = num + count
+    
+print("the total is " + str(num))
