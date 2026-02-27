@@ -22,7 +22,7 @@
 # print(urname, "is the best!")
 
 num = 0
-for count in range(10):
+for count in range(20):
     num = num + count
-    
-print("the total is " + str(num))
+    print(num)
+# print("the total is " + str(num))
