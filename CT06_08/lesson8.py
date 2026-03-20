@@ -18,13 +18,13 @@
 #     random_num = random.randint(0, 99999999999999999999999999)
 #     print(random_num)
 
-# a = 1
-# b = 2
+a = 1
+b = 2
 
-# if a == b:
-#     print("Equal")
-# else:
-#     print("Not equal")
+if a == b:
+    print("Equal")
+else:
+    print("Not equal")
 
 # import random
 
@@ -67,10 +67,10 @@
 # else:
 #     print("This is an odd number")
 
-number1 = int(input("enter number 1: "))
-number2 = int(input("enter number 2: "))
+# number1 = int(input("enter number 1: "))
+# number2 = int(input("enter number 2: "))
 
-if number2 % number1 ==0:
-    print("true")
-else:
-    print("False")
+# if number2 % number1 ==0:
+#     print("true")
+# else:
+#     print("False")
