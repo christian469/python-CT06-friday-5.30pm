@@ -36,13 +36,24 @@
 # print("all numbers are even/odd:", testnum1==testnum2==testnum3)
 
 
-ask = int(input("HOW MANY DAYS DID U BORROW THE BOOK FOR"))
+# ask = int(input("HOW MANY DAYS DID U BORROW THE BOOK FOR"))
 
-more = 25
-less = 24
+# more = 25
+# less = 24
 
-if ask < more:
-    print("good boi")
+# if ask < more:
+#     print("good boi")
+# else:
+#     print("REMEBER TO RETURN UR BOOK BOZO")
+
+amount = int(input("How many apples do u have"))
+apple = 1
+if amount > 9:
+    discount = 10/100 * (amount * apple)
 else:
-    print("REMEBER TO RETURN UR BOOK BOZO")
+    discount = 0
+total = (amount * apple) - discount
+print("please pay $", total)
+
+
 
